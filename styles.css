@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.gif-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.gif {
+    position: absolute;
+    width: 10vw; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Individual GIF Positions */
+.gif:nth-child(1) { top: 10%; left: 15%; animation: float1 7s infinite alternate ease-in-out; }
+.gif:nth-child(2) { top: 20%; left: 30%; animation: float2 6s infinite alternate ease-in-out; }
+.gif:nth-child(3) { top: 30%; left: 45%; animation: float3 8s infinite alternate ease-in-out; }
+.gif:nth-child(4) { top: 40%; left: 60%; animation: float4 7.5s infinite alternate ease-in-out; }
+.gif:nth-child(5) { top: 50%; left: 75%; animation: float1 5s infinite alternate ease-in-out; }
+.gif:nth-child(6) { top: 60%; left: 10%; animation: float2 9s infinite alternate ease-in-out; }
+.gif:nth-child(7) { top: 70%; left: 25%; animation: float3 6.5s infinite alternate ease-in-out; }
+.gif:nth-child(8) { top: 80%; left: 40%; animation: float4 7.2s infinite alternate ease-in-out; }
+.gif:nth-child(9) { top: 70%; left: 55%; animation: float1 8.5s infinite alternate ease-in-out; }
+.gif:nth-child(10) { top: 05%; left: 70%; animation: float2 6s infinite alternate ease-in-out; }
+.gif:nth-child(11) { top: 15%; left: 85%; animation: float3 5.7s infinite alternate ease-in-out; }
+.gif:nth-child(12) { top: 25%; left: 20%; animation: float4 7.1s infinite alternate ease-in-out; }
+.gif:nth-child(13) { top: 35%; left: 35%; animation: float1 6.3s infinite alternate ease-in-out; }
+.gif:nth-child(14) { top: 45%; left: 50%; animation: float2 8.2s infinite alternate ease-in-out; }
+.gif:nth-child(15) { top: 55%; left: 65%; animation: float3 7s infinite alternate ease-in-out; }
+.gif:nth-child(16) { top: 65%; left: 80%; animation: float4 5.9s infinite alternate ease-in-out; }
+.gif:nth-child(17) { top: 75%; left: 5%; animation: float1 6.8s infinite alternate ease-in-out; }
+.gif:nth-child(18) { top: 85%; left: 20%; animation: float2 7.6s infinite alternate ease-in-out; }
+.gif:nth-child(19) { top: 10%; left: 35%; animation: float3 6.4s infinite alternate ease-in-out; }
+.gif:nth-child(20) { top: 20%; left: 50%; animation: float4 8.3s infinite alternate ease-in-out; }
+.gif:nth-child(21) { top: 30%; left: 65%; animation: float1 6.7s infinite alternate ease-in-out; }
+.gif:nth-child(22) { top: 40%; left: 80%; animation: float2 7.2s infinite alternate ease-in-out; }
+.gif:nth-child(23) { top: 50%; left: 5%; animation: float3 7.8s infinite alternate ease-in-out; }
+.gif:nth-child(24) { top: 60%; left: 20%; animation: float4 6.9s infinite alternate ease-in-out; }
+
+/* Float Animations with Different Variations */
+@keyframes float1 {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(10px, -40px); }
+    50% { transform: translate(-20px, 45px); }
+    75% { transform: translate(53px, -10px); }
+    100% { transform: translate(0, 0); }
+}
+
+@keyframes float2 {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-15px, 35px); }
+    50% { transform: translate(25px, -15px); }
+    75% { transform: translate(-43px, 21px); }
+    100% { transform: translate(0, 0); }
+}
+
+@keyframes float3 {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(25px, 15px); }
+    50% { transform: translate(-25px, -35px); }
+    75% { transform: translate(19px, 9px); }
+    100% { transform: translate(0, 0); }
+}
+
+@keyframes float4 {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-30px, -25px); }
+    50% { transform: translate(35px, 45px); }
+    75% { transform: translate(-20px, 20px); }
+    100% { transform: translate(0, 0); }
+}
