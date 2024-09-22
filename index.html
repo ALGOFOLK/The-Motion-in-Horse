@@ -33,5 +33,21 @@
         <img src="images/TMIH23.gif" alt="GIF 23" class="gif">
         <img src="images/TMIH24.gif" alt="GIF 24" class="gif">
     </div>
+
+    <button id="fullscreenBtn">🗖</button>
+
+    <script>
+        const fullscreenBtn = document.getElementById('fullscreenBtn');
+
+        fullscreenBtn.addEventListener('click', () => {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen()
+                    .catch(err => console.log(`Error attempting to enable full-screen mode: ${err.message}`));
+            } else {
+                document.exitFullscreen();
+            }
+        });
+    </script>
+
 </body>
 </html>
