@@ -1,5 +1,5 @@
-The Motion in Horse
-Gabriele de Seta
+The Motion in Horse  
+  Gabriele de Seta
 
 24 animated .GIFs, 2024
 
