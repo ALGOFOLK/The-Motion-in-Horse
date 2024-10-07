@@ -92,3 +92,42 @@ body {
 #fullscreenBtn:hover {
     color: #007bff; /* Change color on hover */
 }
+
+/* Info button */
+.info-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1001;
+}
+
+.info-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.info-box {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    left: 20px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 14px;
+}
