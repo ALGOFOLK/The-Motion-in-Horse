@@ -123,6 +123,7 @@ body {
     background-color: black;
     color: white;
     padding: 20px;
+    margin: 0 20px;
     border-radius: 10px;
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -141,12 +142,16 @@ body {
     .info-box {
         width: 80%; 
         left: 10%;
+        padding: 15px;
+        margin: 0 10px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .info-box {
         width: 90%; 
-        left: 5%; 
+        left: 5%;
+        padding: 10px;
+        margin: 0 5px; 
     }
 }
